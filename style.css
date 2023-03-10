@@ -6,6 +6,10 @@
   --color-700: #E0E1DD;
 }
 
+body {
+  background: var(--color-700);
+}
+
 .card {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 400px;
@@ -18,6 +22,14 @@
   background: var(--color-600);
   border-radius: 10px;
   border-bottom: 10px solid var(--color-400);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transition: transform 1s;
+}
+
+.card:hover {
+  background: var(--color-500);
+  border-bottom: 10px solid var(--color-500);
+  transform: rotate(10deg);
 }
 
 .avatar {
