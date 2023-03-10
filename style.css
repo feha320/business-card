@@ -1,0 +1,31 @@
+:root {
+  --color-300: #0D1B2A;
+  --color-400: #1B263B;
+  --color-500: #415A77;
+  --color-600: #778DA9;
+  --color-700: #E0E1DD;
+}
+
+.card {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: var(--color-300);
+  background: var(--color-600);
+  border-radius: 10px;
+  border-bottom: 10px solid var(--color-400);
+}
+
+.avatar {
+  width: 150px;
+  border: 1px solid var(--color-300);
+}
+
+p {
+  font-weight: 500;
+  font-size: 18px;
+}
